@@ -1,7 +1,10 @@
 /* Hangman file */
 
 $(document).ready(function(){       
-  
+  var tmpl="<div id='secret-word'>TRATTINO</div>";
+  var msg="<div id='msg'>MSG</div>";
+   var parola=Math.random() * Hangman.WORDS.length;
+   alert(parola);
 });
 
 var Hangman = {
